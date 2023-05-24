@@ -9,6 +9,9 @@
     left: 50%;
     transform: translateX(-50%);
 }
+#btn:active{
+    background-color: #E8E3F4;
+}
 #search{
     display: block;
     position: absolute;
@@ -40,6 +43,7 @@
     background-color: #E8E3F4;
 }
 #footer{
+    background: #7843E6;
     position: fixed; 
     width: 100%; 
     bottom: 0;
@@ -90,4 +94,21 @@
 }
 #pagination:active{
     background-color: #E8E3F4;
+}
+#imagens{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#carouselExampleCaptions{
+    top: 100px;
+    height: 400px;
+    background-color: blue;
+}
+  #descricao{
+    background-color: red; 
+    
+}
+#lista{
+    background-color: #7843E6;
 }

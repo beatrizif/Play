@@ -14,32 +14,35 @@
     
     <nav id="navbar" class="navbar navbar-expand-sm navbar-light">
         <div class="container d-flex align-items-center">
-
-            <button type="button" id="btn" class="navbar-brand text-uppercase btn btn-secondary" >
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
-                </svg>
-            </button>
-
+            <button type="button" id="btn" class="btn btn-primary position-relative">
+                News
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  99+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
         </div>
     </nav>
 
     <main id="search">
-        <img src="play.png" alt="" class="play">
-        <div class="input-group mb-3">
-            <input type="text" id="input" class="form-control" placeholder="Pesquisar jogo" aria-label="Pesquisar jogo" aria-describedby="button-addon2">
-            <button id="pesquisar" class="btn btn-outline-secondary" type="button" id="button-addon2">Pesquisar</button>
+        <div class="container-lg">
+            <img src="play.png" alt="" class="play">
         </div>
+        
+        <form class="d-flex justify-content-center" action="resultado.html">
+            <div class="input-group mb-3">
+                <input type="text" id="input" class="form-control" placeholder="Pesquisar jogo" aria-label="Pesquisar jogo" aria-describedby="button-addon2">
+                    <button id="pesquisar" class="btn btn-outline-secondary" type="submit" id="button-addon2">Pesquisar</button>
+                </form>
+            </div>
+        </form>
     </main>
 
-    <div class="container">
-        <footer id="footer" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <div class="col-md-4 d-flex align-items-center">
+        <footer id="footer" class="text-center">
+          <div class="container p-2">
             <span class="mb-3 mb-md-0 text-muted">© Copyright - Labredes </span>
           </div>
-
         </footer>
-      </div>
 
 </body>
 </html>
