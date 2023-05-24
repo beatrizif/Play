@@ -83,7 +83,11 @@
     width: 50px;
     top: -10px;
 }
-._nav{
+#pagination{
     border-style: none;
-    border-color: rgb(158, 158, 158);
+    background-color: #7843E6;
+    color: white;
+}
+#pagination:active{
+    background-color: #E8E3F4;
 }
